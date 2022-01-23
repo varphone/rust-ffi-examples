@@ -1,0 +1,15 @@
+[package]
+name = "foo-sys"
+version = "0.1.0"
+edition = "2021"
+links = "foo"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bar-sys = { path = "../../bar/bar-sys" }
+baz-sys = { path = "../../baz/baz-sys" }
+
+[build-dependencies]
+bindgen = "0.59"
+cc = "1.0"

@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "bar",
+    "bar/bar-sys",
+    "baz",
+    "baz/baz-sys",
+    "foo",
+    "foo/foo-sys",
+]
